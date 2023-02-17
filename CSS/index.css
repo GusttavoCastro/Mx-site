@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+
+Body {
+  position: relative;
+  overflow-x: hidden;
+  height: 3350px;
+  background: #161414;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
+  /* width of the entire scrollbar */
+}
+
+body::-webkit-scrollbar-track {
+  background: #222222;
+  /* color of the tracking area */
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #009FE3;
+  /* color of the scroll thumb */
+  border-radius: 10px;
+  /* roundness of the scroll thumb */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+li,
+a,
+button {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+.logo {
+  position: relative;
+  right: 40px;
+  cursor: pointer;
+}
+
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a {
+  transition: all 0.3s ease 0s;
+}
+
+.nav-links li a:hover {
+  color: #009FE3;
+}
+
+.cta img {
+  position: relative;
+  padding: 10px 2px;
+  transition: all 0.3s ease 0s;
+}
+
+.cta span {
+  position: relative;
+  bottom: 12px;
+  left: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+
+#profile {
+  position: relative;
+  left: 100px;
+}
+
+#cart {
+  position: relative;
+  left: 20px;
+}
+
+#flag {
+  position: relative;
+  left: 60px;
+}
+
+/* CONTENT */
+#container img {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+  height: auto;
+}
+
+#container figcaption {
+  /* POSITION */
+  font-size: 12px;
+  /* STYLES */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  letter-spacing: 3px;
+  color: rgba(255, 255, 255, 0.785);
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+#container h1 {
+  /* POSITION */
+  padding-top: 10px;
+  padding-bottom: 10px;
+  /* STYLES */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.785);
+  text-transform: inherit;
+  font-style: normal;
+}
+
+#container button {
+  /* POSITION */
+  width: 193px;
+  height: 48px;
+  /* STYLES */
+  box-sizing: border-box;
+  background: #009FE3;
+  border: 1px solid #009FE3;
+  cursor: pointer;
+  border-radius: 8px;
+  /* WRITE STYLE */
+  color: rgba(255, 255, 255, 0.903);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#container figcaption,
+h1,
+button {
+  position: relative;
+  bottom: 600px;
+  left: 100px;
+}
+
+.container {
+  position: relative;
+  list-style-type: none;
+  bottom: 70px;
+  left: 40px;
+}
+
+#highlights {
+  /* POSITION */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 10em;
+  bottom: 100px;
+  /* STYLES */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  color: rgba(255, 255, 255, 0.785);
+  text-transform: inherit;
+  font-style: normal;
+}
+
+.container li {
+  position: relative;
+  width: 340px;
+  height: 350px;
+  background: #ffffffea;
+  border-radius: 7px;
+  float: left;
+  margin: 10px;
+}
+
+.container #card img {
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  transform: translate(-50%, -50%) rotate(0deg);
+  width: 190px;
+}
+
+#card h2 {
+  position: relative;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  top: 230px;
+  color: rgba(22, 18, 18, 0.785);
+}
+
+#card button {
+  position: relative;
+  width: 250px;
+  height: 48px;
+  top: 250px;
+  left: 45px;
+  /* STYLES */
+  box-sizing: border-box;
+  background: #009FE3;
+  border: none;
+  border-radius: 8px;
+  /* WRITE STYLE */
+  color: rgba(255, 255, 255, 0.903);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CARDS2 */
+.container2 {
+  position: relative;
+  bottom: 720px;
+  left: 40px;
+  list-style-type: none;
+}
+
+.container2 li {
+  position: relative;
+  width: 700px;
+  height: 350px;
+  border-radius: 1px;
+  float: left;
+  top: 670px;
+  margin: 10px;
+}
+
+/* BACKGROUNDS */
+#card2 {
+  background-image: url("/IMG/moto\ clothes.jpg");
+}
+
+#card3 {
+  background-image: url(/IMG/casuais.jpg);
+}
+
+#card4 {
+  background-image: url(/IMG/gopro.jpg);
+}
+
+#card5 {
+  background-image: url(/IMG/contact.jpg);
+}
+
+.card2 h2 {
+  position: relative;
+  font-family: sans-serif;
+  text-transform: normal;
+  font-style: normal;
+  font-size: 25px;
+  text-align: center;
+  top: 100px;
+  color: rgba(255, 255, 255, 0.903);
+}
+
+/* BUTTOM */
+.card2 button {
+  /* POSITION */
+  position: relative;
+  width: 166px;
+  height: 48px;
+  left: 265px;
+  top: 100px;
+  /* STYLES */
+  box-sizing: border-box;
+  background: #009FE3;
+  border: none;
+  border-radius: 8px;
+  /* WRITE STYLE */
+  color: rgba(255, 255, 255, 0.903);
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* CARDS MOTOS */
+#title1 {
+  /* POSITION */
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  /* STYLES */
+  color: #f2f2f2;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+#title2 {
+  /* POSITION */
+  position: relative;
+  left: 610px;
+  width: 10em;
+  top:10px;
+  /* STYLES */
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 33px;
+  letter-spacing: 0px;
+  color: rgba(255, 255, 255, 0.785);
+  text-transform: inherit;
+  font-style: normal;
+}
+
+.container-motos {
+  position: relative;
+  bottom: 680px;
+  left: 40px;
+  list-style-type: none;
+}
+
+.container-motos li {
+  position: relative;
+  width: 340px;
+  height: 400px;
+  background: #ffffffea;
+  border-radius: 7px;
+  float: left;
+  top: 720px;
+  margin: 10px;
+}
+
+.container-motos .moto img {
+  position: absolute;
+  left: 50%;
+  top: 120px;
+  transform: translate(-50%, -50%) rotate(0deg);
+  width: 250px;
+}
+
+.moto h2 {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-style: normal;
+  font-size: 18px;
+  left: 30px;
+  top: 60%;
+  bottom: 40%;
+  color: rgba(22, 18, 18, 0.785);
+}
+
+.moto .price {
+  position: relative;
+  font-family: Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  font-style: normal;
+  font-size: 14px;
+  left: 30px;
+  top: 60%;
+  bottom: 40%;
+  color: rgba(22, 18, 18, 0.785);
+}
+
+/* BUTTON */
+.config-button {
+  /* POSITION */
+  position: relative;
+  width: 140px;
+  height: 40px;
+  left: 170px;
+  top: 270px;
+  /* STYLES */
+  box-sizing: border-box;
+  background: #009FE3;
+  border: none;
+  border-radius: 8px;
+  /* WRITE STYLE */
+  color: rgba(255, 255, 255, 0.903);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* FOOTER */
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: #282727;
+  width: 100%;
+  height: 300px;
+}
+
+footer div {
+  /* Auto layout */
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+/* UL */
+.suporte {
+  /* POSITION */
+  position: absolute;
+  bottom: 80px;
+  left: 20px;
+  padding: 30px;
+  /* STYLES */
+  list-style-type: none;
+  display: block;
+}
+
+.suporte a {
+  /* POSITION */
+  position: relative;
+  /*Styles*/
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.suporte h2 {
+  /* POSITION */
+  position: relative;
+  /*Styles*/
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.suporte a:hover {
+  opacity: 0.5;
+  color: #009FE3;
+  transition: all .5s;
+}
+
+/* UL */
+.recursos {
+  /* POSITION */
+  position: absolute;
+  bottom: 80px;
+  left: 180px;
+  padding: 85px;
+  /* STYLES */
+  list-style-type: none;
+  display: block;
+}
+
+.recursos a {
+  /* POSITION */
+  position: relative;
+  /*Styles*/
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.recursos h2 {
+  /* POSITION */
+  position: relative;
+  /*Styles*/
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.recursos a:hover {
+  opacity: 0.5;
+  color: #009FE3;
+  transition: all .5s;
+}
+
+/* UL */
+.sobre {
+  /* POSITION */
+  position: absolute;
+  bottom: 80px;
+  left: 380px;
+  padding: 103px;
+  /* STYLES */
+  list-style-type: none;
+  display: block;
+}
+
+.sobre a {
+  /* POSITION */
+  position: relative;
+  /*Styles*/
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.sobre a:hover {
+  opacity: 0.5;
+  color: #009FE3;
+  transition: all .5s;
+}
+
+.sobre h2 {
+  /* POSITION */
+  position: relative;
+  /*Styles*/
+  text-decoration: none;
+  color: #f2f2f2;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 19px;
+}
+
+.logo-footer {
+  position: absolute;
+  top: 50px;
+  left: 1300px;
+}
+
+.logo-footer:hover {
+  opacity: 0.5;
+  color: rgba(255, 255, 255, 0.475);
+  transition: all .5s;
+}
+
+.tarja {
+  background-color: #000000;
+  width: 100%;
+  height: 70px;
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+}
+
+.copyright {
+  color: #ffffff;
+  font-size: 13px;
+  margin: 30px 0;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
